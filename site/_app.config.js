@@ -1,0 +1,1 @@
+window._APP_ADMIN_PRO_APP_CONF_={};Object.freeze(window._APP_ADMIN_PRO_APP_CONF_);Object.defineProperty(window,"_APP_ADMIN_PRO_APP_CONF_",{configurable:false,writable:false,});
