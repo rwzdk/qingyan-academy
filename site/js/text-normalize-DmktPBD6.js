@@ -1,0 +1,1 @@
+const c=/[。．.!！?？、，,;；:：\s]+$/,i=/[。！？；]$/;function s(n){return String(n!=null?n:"").replace(c,"").trim()}function u(n){const r=String(n!=null?n:"").trim();return r?i.test(r)?r:`${r}。`:""}export{u as e,s as t};

@@ -1,0 +1,1 @@
+import{e as t}from"./bootstrap-CBSC6qi5.js";import{c as o}from"./vendor-element-plus-Cb8mRXYr.js";function d(){const r=t();return{userId:o(()=>{var e;return Number(((e=r.userInfo)==null?void 0:e.id)||0)})}}export{d as u};

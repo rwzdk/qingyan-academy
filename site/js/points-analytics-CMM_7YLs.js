@@ -1,0 +1,1 @@
+import{a as e}from"./bootstrap-CBSC6qi5.js";const n=(a,t)=>{const s=new URLSearchParams({period:a});return t&&s.set("date",t),s.toString()},o=(a,t)=>e(`/api/v1/student/points/analytics?${n(a,t)}`),r=(a,t,s=1)=>e(`/api/v1/admin/points/usage?${n(a,t)}&page=${s}&page_size=20`);export{o as a,r as g};

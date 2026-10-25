@@ -1,0 +1,1 @@
+const o="Large Model Configuration",t="Chat Model Provider",e="Chat Model Settings",a="Model Name",s="BasicInformation",d="UpdatePassword",n={title:o,modelOfChat:t,dialogModel:e,modelName:a,basic:s,updatePwd:d};export{s as basic,n as default,e as dialogModel,a as modelName,t as modelOfChat,o as title,d as updatePwd};

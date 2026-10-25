@@ -1,0 +1,1 @@
+const t="Id",o="Name",s="Code",c="Description",e="DictType",n="SortNo",i="Status",d="Options",a="Created",p="Modified",r={id:t,name:o,code:s,description:c,dictType:e,sortNo:n,status:i,options:d,created:a,modified:p};export{s as code,a as created,r as default,c as description,e as dictType,t as id,p as modified,o as name,d as options,n as sortNo,i as status};

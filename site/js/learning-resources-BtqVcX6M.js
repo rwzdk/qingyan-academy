@@ -1,0 +1,1 @@
+import{a as t}from"./bootstrap-CBSC6qi5.js";function n(e){return t("/api/v1/student/resources/short-answer/evaluate",{body:JSON.stringify(e),headers:{"Content-Type":"application/json"},method:"POST"})}function r(e){return t("/api/v1/student/resources/short-answer/follow-up",{body:JSON.stringify(e),headers:{"Content-Type":"application/json"},method:"POST"})}export{r as a,n as e};

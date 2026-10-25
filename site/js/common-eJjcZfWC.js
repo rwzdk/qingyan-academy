@@ -1,0 +1,1 @@
+const a="Operate",e="Please enter search content",t="All",o="History",s="No data available",n=" is required",r="Avatar",c={handle:a,searchPlaceholder:e,allCategories:t,history:o,noDataAvailable:s,isRequired:n,avatar:r};export{t as allCategories,r as avatar,c as default,a as handle,o as history,n as isRequired,s as noDataAvailable,e as searchPlaceholder};

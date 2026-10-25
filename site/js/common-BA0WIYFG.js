@@ -1,0 +1,1 @@
+const o="操作",a="请输入搜索内容",t="全部",s="历史记录",c="暂无数据",e="不能为空",n="头像",l={handle:o,searchPlaceholder:a,allCategories:t,history:s,noDataAvailable:c,isRequired:e,avatar:n};export{t as allCategories,n as avatar,l as default,o as handle,s as history,e as isRequired,c as noDataAvailable,a as searchPlaceholder};

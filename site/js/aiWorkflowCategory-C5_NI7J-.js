@@ -1,0 +1,1 @@
+const t="Id",o="CategoryName",e="SortNo",d="Created",a="CreatedBy",s="Modified",c="ModifiedBy",r="Status",i={id:t,categoryName:o,sortNo:e,created:d,createdBy:a,modified:s,modifiedBy:c,status:r};export{o as categoryName,d as created,a as createdBy,i as default,t as id,s as modified,c as modifiedBy,e as sortNo,r as status};

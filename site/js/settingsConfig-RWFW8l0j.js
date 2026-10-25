@@ -1,0 +1,1 @@
+const t="大模型配置",o="对话模型供应商",s="对话模型配置",e="模型名称",n="基本设置",c="修改密码",a={title:t,modelOfChat:o,dialogModel:s,modelName:e,basic:n,updatePwd:c};export{n as basic,a as default,s as dialogModel,e as modelName,o as modelOfChat,t as title,c as updatePwd};

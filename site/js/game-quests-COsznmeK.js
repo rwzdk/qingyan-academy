@@ -1,0 +1,1 @@
+import{a as e}from"./bootstrap-CBSC6qi5.js";const n="/api/v1/student/game-quests";function s(t){return e(`${n}/round-scene`,{body:JSON.stringify(t),headers:{"Content-Type":"application/json"},method:"POST"})}function a(){return e(`${n}/overview`)}export{s as b,a as g};

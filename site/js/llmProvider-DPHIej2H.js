@@ -1,0 +1,1 @@
+const o="供应商名称",t="供应商",n="Icon",c="API 密钥",e="API 地址",s="向量地址",d="对话地址",a="向量模型",i="对话模型",r={providerName:o,provider:t,icon:n,apiKey:c,endPoint:e,embedPath:s,chatPath:d,embeddingModel:a,chatModel:i};export{c as apiKey,i as chatModel,d as chatPath,r as default,s as embedPath,a as embeddingModel,e as endPoint,n as icon,t as provider,o as providerName};

@@ -1,0 +1,9 @@
+const a=[{label:"粘贴文本",value:"text"},{label:"课堂笔记",value:"notes"},{label:"问答记录",value:"qa"}],l=[{badge:"POINT",desc:"标题、核心概念、要点和自测题",fields:"标题 / 要点 / 自测",label:"知识要点",value:"keypoint"},{badge:"Q/A",desc:"正面问题和背面答案，适合间隔复习",fields:"Front / Back / Tags",label:"Anki 闪卡",value:"anki"},{badge:"MAP",desc:"概念、定义、示例和相关概念",fields:"术语 / 定义 / 关系",label:"概念图卡",value:"concept"},{badge:"CORNELL",desc:"线索、笔记和总结的康奈尔格式",fields:"线索栏 / 笔记栏 / 总结",label:"康奈尔笔记",value:"cornell"}],u=[{key:"remembered",label:"记得"},{key:"unsure",label:"不确定"},{key:"forgotten",label:"没记住"}];function c(){return{anki:{cards:[],error:"",warnings:[]},concept:{cards:[],error:"",warnings:[]},cornell:{cards:[],error:"",warnings:[]},keypoint:{cards:[],error:"",warnings:[]}}}function r(n){return Array.isArray(n)?n.map(String).filter(Boolean):n?[String(n)]:[]}function f(n,t){const e=n.id;return typeof e=="string"&&e?e:t}function g(n){const t={forgotten:0,remembered:0,unsure:0};return n.forEach(e=>{t[e]+=1}),t}function p(n,t){return n.cards.length>0?`${n.cards.length} 张`:n.error?"失败":t?"生成中":"未生成"}function b(n,t){if(t==="anki"){const e=r(n.tags).join(", ");return`## Q: ${n.front||""}
+
+**A:** ${n.back||""}${e?`
+
+Tags: ${e}`:""}`}if(t==="concept"){const e=r(n.related).join(", ");return o([`## ${n.term||""}`,i(n.definition),n.example?`**示例:** ${n.example}`:"",e?`相关: ${e}`:""])}if(t==="cornell"){const e=r(n.cue).join(", ");return o([`## ${n.topic||""}`,e?`**线索:** ${e}`:"",s(n.notes),n.summary?`**总结:** ${n.summary}`:""])}return o([`## ${n.title||""}`,n.concept?`**核心概念:** ${n.concept}`:"",s(n.points),n.summary?`**总结:** ${n.summary}`:"",n.question||n.answer?`> Q: ${n.question||""}
+> A: ${n.answer||""}`:""])}function o(n){return n.filter(Boolean).join(`
+
+`)}function i(n){return Array.isArray(n)?n.map(String).join("、"):String(n!=null?n:"")}function s(n){return r(n).map(t=>`- ${t}`).join(`
+`)}export{f as a,a as b,g as c,b as d,c as e,p as f,u as r,l as s,r as t};

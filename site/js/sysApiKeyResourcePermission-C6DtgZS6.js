@@ -1,0 +1,1 @@
+const e="Id",s="RequestInterface",t="Title",n="AddRequestInterface",c={id:e,requestInterface:s,title:t,addPermission:n};export{n as addPermission,c as default,e as id,s as requestInterface,t as title};
