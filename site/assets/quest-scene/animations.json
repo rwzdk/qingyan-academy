@@ -1,0 +1,363 @@
+{
+  "animations": {
+    "idle": {
+      "frames": [
+        {
+          "col": 0,
+          "h": 76,
+          "row": 9,
+          "sourceX": 0,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 1,
+          "h": 76,
+          "row": 9,
+          "sourceX": 48,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 2,
+          "h": 76,
+          "row": 9,
+          "sourceX": 96,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 3,
+          "h": 76,
+          "row": 9,
+          "sourceX": 144,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 4,
+          "h": 76,
+          "row": 9,
+          "sourceX": 192,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 5,
+          "h": 76,
+          "row": 9,
+          "sourceX": 240,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 6,
+          "h": 76,
+          "row": 9,
+          "sourceX": 288,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 7,
+          "h": 76,
+          "row": 9,
+          "sourceX": 336,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 8,
+          "h": 76,
+          "row": 9,
+          "sourceX": 384,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 9,
+          "h": 76,
+          "row": 9,
+          "sourceX": 432,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 10,
+          "h": 76,
+          "row": 9,
+          "sourceX": 480,
+          "sourceY": 697,
+          "w": 48
+        },
+        {
+          "col": 11,
+          "h": 76,
+          "row": 9,
+          "sourceX": 528,
+          "sourceY": 697,
+          "w": 48
+        }
+      ],
+      "loop": true,
+      "speed": 12.0
+    },
+    "turn": {
+      "frames": [
+        {
+          "col": 0,
+          "h": 76,
+          "row": 0,
+          "sourceX": 0,
+          "sourceY": 24,
+          "w": 48
+        },
+        {
+          "col": 1,
+          "h": 76,
+          "row": 0,
+          "sourceX": 48,
+          "sourceY": 24,
+          "w": 48
+        },
+        {
+          "col": 2,
+          "h": 76,
+          "row": 0,
+          "sourceX": 96,
+          "sourceY": 24,
+          "w": 48
+        },
+        {
+          "col": 3,
+          "h": 76,
+          "row": 0,
+          "sourceX": 144,
+          "sourceY": 24,
+          "w": 48
+        }
+      ],
+      "loop": true,
+      "speed": 5.0
+    },
+    "walk_down": {
+      "frames": [
+        {
+          "col": 18,
+          "h": 70,
+          "row": 11,
+          "sourceX": 864,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 19,
+          "h": 70,
+          "row": 11,
+          "sourceX": 912,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 20,
+          "h": 70,
+          "row": 11,
+          "sourceX": 960,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 21,
+          "h": 70,
+          "row": 11,
+          "sourceX": 1008,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 22,
+          "h": 70,
+          "row": 11,
+          "sourceX": 1056,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 23,
+          "h": 70,
+          "row": 11,
+          "sourceX": 1104,
+          "sourceY": 794,
+          "w": 48
+        }
+      ],
+      "loop": true,
+      "speed": 5.0
+    },
+    "walk_left": {
+      "frames": [
+        {
+          "col": 12,
+          "h": 70,
+          "row": 11,
+          "sourceX": 576,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 13,
+          "h": 70,
+          "row": 11,
+          "sourceX": 624,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 14,
+          "h": 70,
+          "row": 11,
+          "sourceX": 672,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 15,
+          "h": 70,
+          "row": 11,
+          "sourceX": 720,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 16,
+          "h": 70,
+          "row": 11,
+          "sourceX": 768,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 17,
+          "h": 70,
+          "row": 11,
+          "sourceX": 816,
+          "sourceY": 794,
+          "w": 48
+        }
+      ],
+      "loop": true,
+      "speed": 5.0
+    },
+    "walk_right": {
+      "frames": [
+        {
+          "col": 0,
+          "h": 70,
+          "row": 11,
+          "sourceX": 0,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 1,
+          "h": 70,
+          "row": 11,
+          "sourceX": 48,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 2,
+          "h": 70,
+          "row": 11,
+          "sourceX": 96,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 3,
+          "h": 70,
+          "row": 11,
+          "sourceX": 144,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 4,
+          "h": 70,
+          "row": 11,
+          "sourceX": 192,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 5,
+          "h": 70,
+          "row": 11,
+          "sourceX": 240,
+          "sourceY": 794,
+          "w": 48
+        }
+      ],
+      "loop": true,
+      "speed": 5.0
+    },
+    "walk_up": {
+      "frames": [
+        {
+          "col": 6,
+          "h": 70,
+          "row": 11,
+          "sourceX": 288,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 7,
+          "h": 70,
+          "row": 11,
+          "sourceX": 336,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 8,
+          "h": 70,
+          "row": 11,
+          "sourceX": 384,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 9,
+          "h": 70,
+          "row": 11,
+          "sourceX": 432,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 10,
+          "h": 70,
+          "row": 11,
+          "sourceX": 480,
+          "sourceY": 794,
+          "w": 48
+        },
+        {
+          "col": 11,
+          "h": 70,
+          "row": 11,
+          "sourceX": 528,
+          "sourceY": 794,
+          "w": 48
+        }
+      ],
+      "loop": true,
+      "speed": 12.0
+    }
+  },
+  "frameHeight": 70,
+  "frameWidth": 48,
+  "note": "帧坐标已换算为图集行列，切片时按 col*frameWidth, row*frameHeight 取样"
+}

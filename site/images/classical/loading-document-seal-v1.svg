@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="28" y1="15" x2="70" y2="79" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9ED" />
+      <stop offset="1" stop-color="#F0E2C9" />
+    </linearGradient>
+    <filter id="paper-shadow" x="13" y="8" width="72" height="82" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#71372B" flood-opacity=".16" />
+    </filter>
+  </defs>
+  <g filter="url(#paper-shadow)">
+    <path d="M30 15.5h30.2L72 27.3v47.2a4 4 0 0 1-4 4H30a5 5 0 0 1-5-5v-53a5 5 0 0 1 5-5Z" fill="url(#paper)" stroke="#A83D30" stroke-width="3.5" stroke-linejoin="round" />
+    <path d="M60 17v12h11" fill="#EAD8B7" stroke="#A83D30" stroke-width="3.5" stroke-linejoin="round" />
+    <path d="M33 35h28" stroke="#AD4334" stroke-width="4" stroke-linecap="round" />
+    <path d="M33 45h27M33 53h25M33 61h17" stroke="#514239" stroke-width="2.7" stroke-linecap="round" />
+    <path d="M33 70h10" stroke="#B6935E" stroke-width="2.3" stroke-linecap="round" />
+    <rect x="57" y="62" width="10" height="12" rx="1.5" fill="#A83D30" />
+    <path d="M60 65h4M60 68h4M60 71h2" stroke="#F7EAD3" stroke-width="1.1" stroke-linecap="round" />
+  </g>
+  <path d="M19.5 28v39" stroke="#C49B62" stroke-width="2" stroke-linecap="round" opacity=".8" />
+  <circle cx="19.5" cy="23" r="2" fill="#C49B62" />
+  <circle cx="19.5" cy="72" r="2" fill="#C49B62" />
+</svg>
